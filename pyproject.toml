@@ -23,9 +23,13 @@ classifiers = [
     "Programming Language :: Python :: 3.14",
 ]
 dependencies = [
-    "e2xgrader_student"
+    "e2xgrader_student @ git+https://github.com/e2xgrader/e2xgrader-student.git"
 ]
+
 dynamic = ["version", "description", "authors", "urls", "keywords"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
 
 [tool.hatch.version]
 source = "nodejs"
