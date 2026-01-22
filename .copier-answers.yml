@@ -1,0 +1,16 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.5.1
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: tim.metzler@h-brs.de
+author_name: Tim Metzler
+has_ai_rules: false
+has_binder: false
+has_settings: true
+kind: frontend
+labextension_name: '@e2xgrader/student-exam'
+project_short_description: A JupyterLab extension to activate e2xgrader student exam
+    mode
+python_name: e2xgrader_student_exam
+repository: https://github.com/e2xgrader/e2xgrader-student-exam
+test: true
+
