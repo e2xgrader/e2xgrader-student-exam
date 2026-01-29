@@ -57,6 +57,7 @@
         "watch:labextension": "jupyter labextension watch ."
     },
     "dependencies": {
+        "@e2xgrader/custom-notebook-toolbar": "file:../e2xgrader-custom-notebook-toolbar",
         "@jupyterlab/application": "^4.0.0",
         "@jupyterlab/settingregistry": "^4.0.0"
     },
